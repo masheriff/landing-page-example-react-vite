@@ -1,5 +1,6 @@
 import About from "./components/blocks/About";
 import Footer from "./components/blocks/Footer";
+import Contact from "./components/blocks/Contact";
 import Header from "./components/blocks/Header";
 import Hero from "./components/blocks/Hero";
 import Projects from "./components/blocks/Projects";
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Projects projectArray={projectArray}/>
       <About aboutArray={aboutArray}/>
+      <Contact />
       <Footer />
     </>
   );
