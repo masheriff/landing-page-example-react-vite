@@ -1,7 +1,9 @@
+import About from "./components/blocks/About";
 import Footer from "./components/blocks/Footer";
 import Header from "./components/blocks/Header";
 import Hero from "./components/blocks/Hero";
 import Projects from "./components/blocks/Projects";
+import { aboutArray } from "./data/about-data";
 import { projectArray } from "./data/project-data";
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Projects projectArray={projectArray}/>
+      <About aboutArray={aboutArray}/>
       <Footer />
     </>
   );
